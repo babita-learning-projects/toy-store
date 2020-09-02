@@ -1,0 +1,36 @@
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css');
+
+// Common/home page components
+@import 'variable.scss';
+@import 'base.scss';
+@import 'contact-bar.scss';
+@import 'header.scss';
+@import 'hero-banner.scss';
+@import 'categories.scss';
+@import 'featured-products.scss';
+@import 'wooden-toys.scss';
+@import 'story-video.scss';
+@import 'promo.scss';
+@import 'newsletter.scss';
+@import 'elastic-toys.scss';
+@import 'footer.scss';
+@import 'cart-modal.scss';
+
+
+// catalog page components
+@import 'breadcrumbs.scss';
+
+// delivery page
+@import 'delivery.scss';
+
+// about page
+@import 'intro-toystore.scss';
+
+// contacts page
+@import 'contacts-info.scss';
+
+// teddy-bear page
+@import 'teddy-bear.scss';
+
+
+

@@ -1,0 +1,77 @@
+.promo {
+
+    &__border {
+        border: 1px solid $color-green;
+        width: 15%;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    &__paragraph {
+        color: $color-gray-2;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px ;
+    }
+
+    &__btn {
+        background-color: $color-green;
+        border-radius: 25px;
+        color: $color-white;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 14px;
+        padding: 14px 28px;
+        text-align: center;
+        text-decoration: none;
+
+        &:hover {
+            color: $color-white;
+            text-decoration: none;
+        }
+    }
+
+    &__img {
+        width: 100%;
+        border-radius: 16px;
+        max-width: 100%;
+        vertical-align: middle;
+        display: inline-block;
+        margin-top: 40px;
+    }
+
+    &__all-link {
+        border-bottom: 2px solid $color-gray-2;
+        color: $color-black-2;
+        display: inline-block;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 20px;
+        padding-bottom: 6px;
+
+        &:hover {
+            color: $color-black-2;
+            border-color: $color-green;
+            text-decoration: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .promo__btn {
+        border-radius: 28px;
+        margin-left: 6rem;
+        padding: 20px 40px;
+        font-size: 14px;
+    }
+
+    .promo__border {
+        margin-left: 110px;
+        width: 30%;
+    }
+    .promo__heading-1 {
+      text-align: center;
+    }
+
+
+}
